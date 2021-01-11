@@ -1,14 +1,8 @@
----
-layout: page
-title : About
-permalink: /about/
----
-
-<h2>Profile</h2>
-<p>Minimal, text based, liberal Jekyll theme<br>for sharing your awesome ideas.</p>
-<br>
-<center><p ><strong><span class="manual">Get up and running with</span> Gravity</strong></p></center>
-<br>
+I"ó<h2>Profile</h2>
+<p>Minimal, text based, liberal Jekyll theme<br />for sharing your awesome ideas.</p>
+<p><br /></p>
+<center><p><strong><span class="manual">Get up and running with</span> Gravity</strong></p></center>
+<p><br /></p>
 <div class="manual-post">
   <div class="manual manual-title">
   <strong>Posting</strong>
@@ -20,7 +14,7 @@ layout: post | default | page
 title:  String<span class="hint"> Post Title</span>
 date:   Time Stamp
 categories: String | Array of Strings<span class="hint"> Category / Categories </span>
-\---</pre>
+\---&lt;/pre&gt;
 
 ```
   </div>
@@ -39,10 +33,10 @@ categories: ["life", "friends"]
   </div>
 ```
 
-  </div>
+  &lt;/div&gt;
 </p>
 </div>
-<br>
+<p><br /></p>
 <div class="manual-post">
   <div class="manual manual-title">
   <strong>Create Pages</strong>
@@ -50,11 +44,11 @@ categories: ["life", "friends"]
 <p>  <div class="manual-content">
 
 ```
-  - Create a .md file in the root directory.<br>
-  - Name the file with the desired page link name.<br>  <code>about.md</code><br><code>design.md</code><br>
+  - Create a .md file in the root directory.<br />
+  - Name the file with the desired page link name.<br />  <code>about.md</code><br /><code>design.md</code><br />
   - Write the <a href="jekyll">Front Matter</a> and content in the file.
   <div class="example">
-    <span class='manual'>FORMAT</span><BR>
+    <span class="manual">FORMAT</span><br />
     <pre>---
 ```
 
@@ -74,14 +68,14 @@ tagline: String <span class="hint">Optional Gravity Feature : Tagline for the pa
   </div>
 </p>
 </div>
-<br>
+<p><br /></p>
 <div class="manual-post">
   <div class="manual manual-title">
-  <strong>Create Archives/ Category Pages</strong><br>
-</div><br>
+  <strong>Create Archives/ Category Pages</strong><br />
+</div><br />
 <div class="archiveIntro">
   <p>
-    Introducing <strong>Archive Pages</strong>.<br></p>
+    Introducing <strong>Archive Pages</strong>.<br /></p>
   <span class="archive-intro">  You can display a list of all the post corresponding to a particular category on a standalone Page using the <code>'archive'</code> layout.
 </span>
 </div>
@@ -89,3 +83,4 @@ tagline: String <span class="hint">Optional Gravity Feature : Tagline for the pa
 
 </div>
 
+:ET
